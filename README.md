@@ -1,26 +1,21 @@
 # Liver_disease_prediction_model
-The Student Management System is a comprehensive software solution designed to streamline the process of managing student records in educational institutions. This project aims to provide a user-friendly interface for administrators and educators to efficiently handle student information, including personal details, class assignments, admission dates, payment records, and more.
-
-With the increasing complexity of educational administration, there arises a need for a robust system to centralize and organize student data effectively. The Student Management System addresses this need by offering a feature-rich platform that facilitates tasks such as enrollment, record-keeping, communication, and analysis.
+This project aims to predict the presence of liver disease in patients using supervised machine learning techniques. It utilizes a dataset containing various medical parameters such as age, gender, bilirubin levels, and enzyme markers. The project includes data preprocessing, model training, and evaluation using classification algorithms like Support Vector Machine (SVM) and Naive Bayes. A comparison of model accuracy is also visualized for performance analysis.
 
 ## Key Features:
 
-### User-friendly Interface
-
-### Database Integration
-
-### Student Record Management
-
-### Payment Tracking
-
-### Customizable Reporting
-
-### Error Handling and Validation:
+### Data Cleaning & Preprocessing: Handled missing values and encoded categorical data to prepare for machine learning.
+###Feature Scaling: Standardized input features using StandardScaler for improved model performance.
+###Model Implementation: Built and trained two classifiers — Support Vector Machine (SVM) and Naive Bayes.
+###Performance Evaluation: Compared model accuracy using accuracy_score for objective evaluation.
+###Visualization: Displayed accuracy comparison through a clean and informative bar chart using matplotlib.
+###Modular Code Structure: Organized and readable Python script for easy understanding and reproducibility.
 
 ## Required modules:
-### tkinter: This module is a standard GUI (Graphical User Interface) library in Python, used for creating GUI applications.
-pip install tk
-### sqlite3: This module enables interaction with SQLite databases, allowing the project to store and manage student data.
-pip install db-sqlite3
-### messagebox: This module provides a simple way to display messages in a dialog box, which is useful for showing error messages or notifications to the user.
-pip install messagebox
+### NumPy
+pip install numpy
+### pandas
+pip install pandas
+### matplotlib
+pip install matplotlib
+### scikit-learn
+pip install scikit-learn
